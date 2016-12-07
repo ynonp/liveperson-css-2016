@@ -1,0 +1,57 @@
+.feed {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;  
+  max-width: 400px;
+}
+
+.feed-item {
+  margin: 0 0 2rem 0;
+}
+
+.feed--item-img {
+  width: 300px;
+  display: block;
+}
+
+.feed--item-text {
+  display: block;
+}
+
+@media (min-width: 450px) {
+  .feed {
+    max-width: initial;
+  }
+
+  .feed-item {
+    direction: rtl;
+  }
+
+  .feed--item-img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .feed--item-text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
