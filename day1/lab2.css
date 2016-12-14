@@ -1,0 +1,33 @@
+html { height: 100%; }
+body { font-size: 12px; height: 100%; }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.box {
+  flex: 1;
+  background: lightgray;
+  max-width: 100px;
+}
+
+.box img {
+  max-width: 50px;
+}
+
+.box {
+  text-align: center;
+}
+
+.box h1 {
+  color: blue;
+  text-decoration: underline;
+}
+
+.box h2 {
+  color: red;
+}
+

@@ -2,7 +2,7 @@
   list-style: none;
   padding: 0;
   margin: 0 auto;  
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .feed-item {
@@ -20,6 +20,7 @@
 
 @media (min-width: 450px) {
   .feed {
+    max-width: none;
     max-width: initial;
   }
 
