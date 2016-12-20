@@ -1,0 +1,18 @@
+.hero-unit {
+  color: darken($bg, 22);
+  margin: 50px auto 0 auto;
+  width: $sz_hero_unit;
+  font-size: $sz_hero_unit / 10;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+
